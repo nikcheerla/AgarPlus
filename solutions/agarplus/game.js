@@ -54,8 +54,6 @@ function addCircles(numCircles, circles) {
 								Math.floor(Math.random()*255) 
 							+ ")";
 
-		alert(randomColor);
-
 		var circle = makeCircle(randomX, randomY, randomRadius);
 		circle.style.backgroundColor = randomColor;
 		circles.push(circle);
